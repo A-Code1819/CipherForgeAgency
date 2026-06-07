@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CipherForge | Authentication Security</title>
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- NAVBAR -->
+<header class="navbar">
+
+  <div class="container nav-container">
+
+    <a href="index.html" class="logo">
+      <img src="cflogo.png" alt="CipherForge Logo" class="logo-img"/>
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item">Home</a>
+
+      <a href="about.html" class="nav-item">About</a>
+
+      <a href="services.html" class="nav-item">Services</a>
+
+      <a href="portfolio.html" class="nav-item active">Portfolio</a>
+
+      <a href="contact.html" class="nav-item">Contact</a>
+    </nav>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+</header>
+
+   <section class="portfolio-hero">
+      <h1>Authentication Security System</h1>
+      <p class="highlight">Securing login mechanisms against unauthorized access</p>
+      <div class="btn-group">
+         <a href="contact.html" class="btn">Secure My System</a>
+      </div>
+   </section>
+
+   <section class="case-container">
+      <div class="case-block highlight-block">
+         <h2>1. The Problem</h2>
+         <p>
+            The original login system allowed unrestricted login attempts with no validation or protection mechanisms. 
+            This exposed the system to brute-force attacks and credential guessing.
+         </p>
+      </div>
+
+      <div class="case-block highlight-block">
+         <h2>2. Vulnerability Analysis</h2>
+         <ul>
+            <li>No rate limiting on login attempts</li>
+            <li>Password input not masked securely</li>
+            <li>No encryption or hashing for credentials</li>
+            <li>Lack of session validation</li>
+         </ul>
+      </div>
+  
+      <div class="case-block highlight-block">
+         <h2>3. Tools & Techniques</h2>
+         <ul>
+            <li>Browser DevTools for request inspection</li>
+            <li>Simulated 100+ login attempts using scripted input patterns</li>
+            <li>JavaScript validation scripts</li>
+         </ul>
+      </div>
+   
+      <div class="case-block highlight-block">
+         <h2>4. Solution Implemented</h2>
+         <ul>
+            <li>Added client-side input validation</li> 
+            <li>Implemented password masking and secure fields</li>
+            <li>Simulated rate limiting logic</li>
+            <li>Structured authentication flow for secure login handling</li>
+         </ul>
+      </div>
+
+      <div class="case-block highlight-block">
+         <h2>5. Outcome</h2>
+         <p>
+            The system became significantly more resistant to brute-force attempts
+             and improved user credential protection.
+         </p>
+      </div>
+      
+      <div class="case-block highlight-block">
+         <h2>6. Key Takeaways</h2>
+           <ul>
+            <li>Authentication is the first line of defense</li>
+            <li>Always protect against repeated login attempts</li>
+            <li>Secure credential handling is critical</li>
+         </ul>
+      </div>
+   </section>
+
+   <section class="case-nav">
+      <a href="case-study-2.html" class="btn">Next →</a>
+      <a href="portfolio.html" class="btn">Back to Portfolio</a>
+   </section>
+</body>
+</html>

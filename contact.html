@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CipherForge | Secure Operations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="contacticon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PARTICLES -->
+  <div id="particles"></div>
+
+  <!-- CURSOR -->
+  <div class="cursor-glow"></div>
+
+  <!-- PAGE TRANSITION -->
+  <div class="page-transition"></div>
+
+<header class="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">
+      <img src="cflogo.png" alt="CipherForge Logo" class="logo-img"/>
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <a href="services.html" class="nav-item">Services</a>
+      <a href="portfolio.html" class="nav-item">Portfolio</a>
+      <a href="contact.html" class="nav-item active">Contact</a>
+    </nav>
+    
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero-split">
+  <div class="container hero-split-container">
+    
+    <div class="hero-split-text">
+      <p class="section-tag">SECURE OPERATIONS CENTER</p>
+      <h1>Request a Security Assessment</h1>
+      <p>
+        Establish a direct, encrypted channel with our specialists. Submit infrastructure telemetry data or deployment specifications to initiate engineering review.
+      </p>
+    </div>
+
+    <div class="hero-split-graphic">
+      <div class="telemetry-panel">
+        <div class="telemetry-header">
+          <span class="telemetry-dot red"></span>
+          <span class="telemetry-dot yellow"></span>
+          <span class="telemetry-dot green"></span>
+          <span class="telemetry-title">secure_channel_handshake.sh</span>
+        </div>
+        <div class="telemetry-body">
+          <p class="t-ln"><span class="t-dir">[sys_init]:</span> Inbound secure request interface online...</p>
+          <p class="t-ln"><span class="t-dir">[protocol]:</span> TLS_1.3 // AES_256_GCM active</p>
+          <p class="t-ln"><span class="t-dir">[routing]:</span> Formspree Endpoint Validated</p>
+          <p class="t-ln blinking-cursor"><span class="t-dir">CipherForge_secops$</span> █</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="page-section contact-grid-section">
+  <div class="container">
+    <div class="contact-portal-grid">
+      
+      <div class="secure-ops-panel">
+        <div class="panel-header">
+          <span class="status-indicator blinking"></span>
+          <h3>Direct Secure Relays</h3>
+        </div>
+        <p class="panel-desc">
+          For critical infrastructure escalation, bypass standard web layers and route communication directly to our specialized analysts over instant secure messaging protocols.
+        </p>
+
+        <div class="contact-alt-grid">
+          <a href="https://wa.me/50247832193" target="_blank" rel="noopener noreferrer" class="whatsapp-card">
+            <div class="wa-icon-wrapper">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="wa-details">
+              <strong>Lead Analyst</strong>
+              <span>Frontend & Security</span>
+            </div>
+          </a>
+
+          <a href="https://wa.me/50245495038" target="_blank" rel="noopener noreferrer" class="whatsapp-card">
+            <div class="wa-icon-wrapper">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="wa-details">
+              <strong>System Engineer</strong>
+              <span>Backend & IT</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="crypto-key-box">
+          <div class="key-details">
+            <h4>Asymmetric PGP Public Key</h4>
+            <p>Need to transmit sensitive data? Download our public signature block to secure manual payloads.</p>
+          </div>
+          <a href="cf_pubkey.asc.zip" download="cf_pubkey.asc.zip" class="whatsapp-btn" style="display: inline-flex; justify-content: center; max-width: 300px; margin: 0 auto; border: 1px dashed rgba(90, 200, 250, 0.3);">
+            <i class="fa-solid fa-key" style="color: #5AC8FA;"></i>
+            <div>
+              <strong style="color: #5AC8FA;">Download PGP Public Key</strong>
+              <span style="color: #6a6a8a;">cf_pubkey.zip</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-panel">
+        <form class="contact-form-hardened" action="https://formspree.io/f/xgedeoel" method="POST">
+          
+          <div class="form-input-wrapper">
+            <label class="form-label">Client / Organization Identity</label>
+            <input type="text" name="name" placeholder="Your Name or Entity" required autocomplete="off">
+          </div>
+
+          <div class="form-input-wrapper">
+            <label class="form-label">Secure Return Routing</label>
+            <input type="email" name="email" placeholder="your-email@domain.com" required autocomplete="off">
+          </div>
+
+          <div class="form-input-wrapper">
+            <label class="form-label">System Architecture / Scope Details</label>
+            <textarea name="message" placeholder="Describe your current system layout, network issues, or infrastructure target safely..." required></textarea>
+          </div>
+
+          <div class="form-security-footer">
+            <p><i class="fa-solid fa-shield-halved"></i> Data Transmission Integrity: Packets undergo automated sanitization handling to counter input injection vulnerabilities.</p>
+          </div>
+
+          <button type="submit" class="btn-submit-portal">
+            Dispatch Audit Payload
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="successModal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(10, 10, 18, 0.9); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(8px); padding: 1rem; box-sizing: border-box;">
+  <div class="modal-content" style="background: #121225; border: 1px solid #5AC8FA; padding: 2.5rem; border-radius: 12px; text-align: center; max-width: 450px; width: 100%; box-shadow: 0 0 40px rgba(90, 200, 250, 0.15); font-family: 'Inter', sans-serif; box-sizing: border-box;">
+    <i class="fa-solid fa-shield-halved" style="color: #5AC8FA; font-size: 3.5rem; margin-bottom: 1.5rem; display: block;"></i>
+    <h3 style="font-family: 'Orbitron', sans-serif; color: #fff; margin-top: 0; margin-bottom: 1rem; letter-spacing: 1px; font-size: 1.5rem;">PAYLOAD RECEIVED</h3>
+    <p style="color: #a0a0c0; font-size: 0.95rem; line-height: 1.6; margin-bottom: 2rem; font-weight: 300;">
+      Your submission has been securely intercepted and logged. A regional security analyst will review the target parameters and initiate contact shortly.
+    </p>
+    <button onclick="closeModal()" class="btn" style="background: transparent; border: 1px solid #5AC8FA; color: #5AC8FA; padding: 0.75rem 2.5rem; border-radius: 4px; cursor: pointer; transition: all 0.3s ease; font-family: 'Orbitron', sans-serif; font-size: 0.85rem; letter-spacing: 1px;">
+      Dismiss Terminal
+    </button>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo footer-logo">
+        <img src="cfavicon.svg" alt="CipherForge Logo" class="logo-image"/>
+      <span>CipherForge</span>
+      </div>
+      <p class="footer-text">CyberSecurity Tech Analyst Agency</p>
+    </div>
+
+    <div>
+      <h4>Navigation</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+      <h4>Core Services</h4>
+      <p>Threat Analysis</p>
+      <p>Security Audits</p>
+      <p>System Hardening</p>
+    </div>
+
+    <div>
+      <h4>Availability</h4>
+      <p>Remote Support Available</p>
+      <p>Security Consultations</p>
+      <p>Business Infrastructure Solutions</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="particles.js"></script>
+<script src="https://kit.fontawesome.com/b708182106.js" crossorigin="anonymous" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CipherForge | Cybersec Case Study</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="portfolioicon.png">
+
+</head>
+
+<body>
+
+<!-- PARTICLES -->
+<div id="particles"></div>
+
+<!-- CURSOR -->
+<div class="cursor-glow"></div>
+
+<!-- PAGE TRANSITION -->
+<div class="page-transition"></div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo"><img src="cflogo.png" alt="CipherForge Logo" class="logo-img"/></a>
+
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <a href="services.html" class="nav-item">Services</a>
+      <a href="portfolio.html" class="nav-item active">Portfolio</a>
+      <a href="contact.html" class="nav-item">Contact</a>
+    </nav>
+    
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="section-tag">PORTFOLIO</p>
+
+    <h1>Building Secure Digital Solutions</h1>
+
+    <p>
+      A collection of cybersecurity tools, business platforms,
+      responsive websites, and development projects focused on
+      solving real-world challenges.
+    </p>
+
+    <div class="hero-buttons">
+     <a href="contact.html" class="btn btn-cv-download">Start Your Project</a>
+     <a href="AnnaKwasCV.pdf" download="Annas_CV.pdf" class="btn btn-cv-download">Download Lead Analyst CV</a>
+     <a href="BenCV.pdf" download="Benjamin_CV.pdf" class="btn btn-cv-download">Download System Engineer CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="page-section">
+  <div class="container">
+    <div class="trust">
+      <p>💻 9 Development Projects</p>
+      <p>🛡 Cybersecurity Tools</p>
+      <p>📱 Responsive Design Focus</p>
+      <p>🚀 Multi-Page Applications</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO GRID -->
+<section class="page-section">
+  <div class="container">
+    <div class="section-heading text-center">
+      <p class="section-tag">OUR WORK</p>
+      <h2>Selected Deployments</h2>
+    </div>
+
+    <div class="filter-controls">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="cybersecurity">Cybersecurity Tools</button>
+      <button class="filter-btn" data-filter="development">Web Development</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Web Dev</span>
+          <h3>ChapinTech</h3>
+          <p>IT support and service management platform featuring technician workflows, case tracking, and administrative dashboards.</p>
+          <div class="tech-tags">
+            <span>HTML5</span><span>CSS3</span><span>JS</span>
+          </div>
+          <a href="https://bjgonzalezc-alt.github.io/ChapinTech/" target="_blank" rel="noopener noreferrer" class="card-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="cybersecurity">
+        <div class="card-inner">
+          <span class="card-badge security-badge">Security</span>
+          <h3>Network Scanner</h3>
+          <p>Cybersecurity-focused utility demonstrating network discovery concepts, active host detection, and security tooling layouts.</p>
+          <div class="tech-tags">
+            <span>Security Logic</span><span>Network UI</span><span>JS</span>
+          </div>
+          <a href="https://a-code1819.github.io/NetworkScanner/" target="_blank" rel="noopener noreferrer" class="card-link">View Tool →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="cybersecurity">
+        <div class="card-inner">
+          <span class="card-badge security-badge">Security</span>
+          <h3>Password Security Tool</h3>
+          <p>Interactive password analysis utility designed to evaluate entropy, strength variants, and promote stronger authentication math.</p>
+          <div class="tech-tags">
+            <span>Crypto Logic</span><span>JS</span><span>Security</span>
+          </div>
+          <a href="https://a-code1819.github.io/Cybersecurity-pswd-tool/" target="_blank" rel="noopener noreferrer" class="card-link">View Tool →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Web Dev</span>
+          <h3>Carwash Website</h3>
+          <p>Responsive business website focused on high-conversion customer engagement, service selections, and fluid layouts.</p>
+          <div class="tech-tags">
+            <span>Responsive UX</span><span>HTML5</span><span>CSS3</span>
+          </div>
+          <a href="https://a-code1819.github.io/CARWASH-PROJECT/" target="_blank" rel="noopener noreferrer" class="card-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Web Dev</span>
+          <h3>Vanilla Studio Portal</h3>
+          <p>The premium client interface hub highlighting agency services, design pipelines, and secure web solutions.</p>
+          <div class="tech-tags">
+            <span>UI Framework</span><span>CSS Components</span>
+          </div>
+          <a href="#" class="card-link">Current System →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Web Dev</span>
+          <h3>Product Landing Page</h3>
+          <p>A marketing-oriented, responsive landing canvas engineered to maximize conversion funnels and semantic structures.</p>
+          <div class="tech-tags">
+            <span>Flexbox</span><span>Semantic HTML</span>
+          </div>
+          <a href="https://a-code1819.github.io/PLP/" target="_blank" rel="noopener noreferrer" class="card-link">View Page →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Technical Documentation</span>
+          <h3>HTML Documentation Guide</h3>
+          <p>A clean, layout-driven documentation layout optimized for code legibility, syntax referencing, and side-nav accessibility.</p>
+          <div class="tech-tags">
+            <span>Layout Design</span><span>Technical Writing</span>
+          </div>
+          <a href="https://a-code1819.github.io/HTMLdoc/" target="_blank" rel="noopener noreferrer" class="card-link">View Docs →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Data Input</span>
+          <h3>Interactive Survey Form</h3>
+          <p>A data-gathering form interface highlighting semantic validation controls, accessible inputs, and strict CSS alignment structures.</p>
+          <div class="tech-tags">
+            <span>Form Validation</span><span>UI Elements</span>
+          </div>
+          <a href="https://a-code1819.github.io/SurveyForm/" target="_blank" rel="noopener noreferrer" class="card-link">View Form →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-card" data-category="development">
+        <div class="card-inner">
+          <span class="card-badge dev-badge">Core Foundation</span>
+          <h3>Tribute Page Layout</h3>
+          <p>A clean, typographic-focused content layout built to master core responsive design scales and structural alignment elements.</p>
+          <div class="tech-tags">
+            <span>Typography</span><span>CSS Layouts</span>
+          </div>
+          <a href="https://a-code1819.github.io/TributePage/" target="_blank" rel="noopener noreferrer" class="card-link">View Page →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="page-section">
+  <div class="container">
+    <div class="cta-box">
+      <p class="section-tag">LET'S BUILD SOMETHING</p>
+
+      <h2>Need A Website, Security Tool, Or Business Platform?</h2>
+
+      <p class="cta-text">
+        From responsive websites to cybersecurity-focused
+        solutions, CipherForge develops practical
+        technology designed to solve real-world problems.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="contact.html" class="btn">Request Consultation</a>
+
+        <a href="services.html" class="btn secondary-btn">Explore Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo footer-logo">
+        <img src="cfavicon.svg" alt="CipherForge Logo" class="logo-image">
+      <span>CipherForge</span>
+      </div>
+
+      <p class="footer-text">
+        CyberSecurity Tech Analyst Agency
+      </p>
+    </div>
+
+    <div>
+      <h4>Navigation</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+      <h4>Core Services</h4>
+      <p>Threat Analysis</p>
+      <p>Security Audits</p>
+      <p>System Hardening</p>
+    </div>
+
+    <div>
+      <h4>Availability</h4>
+      <p>Remote Support Available</p>
+      <p>Security Consultations</p>
+      <p>Business Infrastructure Solutions</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script src="particles.js"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>

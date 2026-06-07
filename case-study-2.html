@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CipherForge | Input Validation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">
+      <img src="cflogo.png" alt="CipherForge Logo" class="logo-img"/>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <a href="services.html" class="nav-item">Services</a>
+      <a href="portfolio.html" class="nav-item active">Portfolio</a>
+      <a href="contact.html" class="nav-item">Contact</a>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<section class="portfolio-hero">
+  <h1>Input Validation Case Study</h1>
+  <h2>Preventing injection attacks through secure input handling</h2>
+  <p class="highlight">
+    Strengthening user data validation to stop XSS and malicious submissions.
+  </p>
+  <div class="btn-group">
+    <a href="contact.html" class="btn">Secure My System</a>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat">✔ XSS risk identified</div>
+  <div class="stat">✔ Input validation enforced</div>
+  <div class="stat">✔ Data handling secured</div>
+</section>
+
+<section class="case-container">
+  <div class="case-block highlight-block">
+    <h2>1. The Problem</h2>
+    <p>
+      The application accepted user input without validation, allowing malicious scripts and invalid data to be submitted.
+    </p>
+  </div>
+
+  <div class="case-block highlight-block">
+    <h2>2. Vulnerability Analysis</h2>
+    <ul>
+      <li>Cross-Site Scripting (XSS) risk</li>
+      <li>No input sanitization</li>
+      <li>Improper form validation</li>
+      <li>Potential data injection points</li>
+    </ul>
+  </div>
+
+  <div class="case-block highlight-block">
+    <h2>3. Tools & Techniques</h2>
+    <ul>
+      <li>Manual payload injection testing</li>
+      <li>Browser console testing</li>
+      <li>JavaScript validation implementation</li>
+    </ul>
+  </div>
+
+  <div class="case-block highlight-block">
+    <h2>4. Solution Implemented</h2>
+    <ul>
+      <li>Sanitized all user inputs</li>
+      <li>Implemented strict validation rules</li>
+      <li>Tested payloads and blocked execution</li>
+      <li>Improved form handling logic</li>
+    </ul>
+  </div>
+
+  <div class="case-block highlight-block">
+    <h2>5. Outcome</h2>
+    <p>
+      The system became resistant to common XSS 
+      and injection attacks, 
+      improving overall application security.
+    </p>
+  </div>
+
+  <div class="case-block highlight-block">
+    <h2>6. Key Takeaways</h2>
+    <ul>
+      <li>Never trust user input</li>
+      <li>Always validate and sanitize data</li>
+      <li>Security should be implemented at every input point</li>
+    </ul>
+  </div>
+</section>
+
+<section class="inline-cta">
+  <h2>Your system could have the same vulnerabilities</h2>
+  <a href="contact.html" class="btn">Get Security Audit</a>
+</section>
+
+<section class="case-nav">
+  <a href="case-study-1.html" class="btn">← Previous</a>
+  <a href="portfolio.html" class="btn">Back to Portfolio</a>
+</section>
+
+<section class="global-cta">
+  <h2>Let’s Secure Your Infrastructure</h2>
+  <p>Professional cybersecurity solutions tailored to your systems.</p>
+  <a href="contact.html" class="btn">Start Now</a>
+</section>
+
+<footer>
+  <p>&copy; 2023-2026 CipherForge. All rights reserved.</p>
+  <p>CyberSecurity Tech Analyst Agency</p>
+</footer>
+
+</body>
+</html>
